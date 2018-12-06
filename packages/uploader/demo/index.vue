@@ -15,7 +15,7 @@
     <demo-block :title="$t('title2')">
       <div class="demo-uploader-container">
         <van-uploader
-          accept="image/gif, image/jpeg"
+          accept="image/gif, image/jpeg, application/msword, aplication/zip, application/pdf, application/vnd.ms-powerpoint, text/plain"
           multiple
           :max-size="36000"
           @oversize="logContent"
